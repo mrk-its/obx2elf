@@ -1,0 +1,18 @@
+[package]
+name = "obx2elf"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+faerie = "0.16"
+target-lexicon = "0"
+goblin = "0"
+clap = { version = "3.0", features = ["derive"] }
+log = { version = "0"}
+env_logger = {version = "0"}
+[patch.crates-io]
+target-lexicon = {path = "../target-lexicon"}
+faerie = {path = "../faerie"}
+goblin = {path = "../goblin"}
