@@ -13,6 +13,6 @@ clap = { version = "3.0", features = ["derive"] }
 log = { version = "0"}
 env_logger = {version = "0"}
 [patch.crates-io]
-target-lexicon = {path = "../target-lexicon"}
-faerie = {path = "../faerie"}
-goblin = {path = "../goblin"}
+target-lexicon = {git = "https://github.com/mrk-its/target-lexicon", branch="mos"}
+faerie = {git = "https://github.com/mrk-its/faerie", branch="mos"}
+goblin = {git = "https://github.com/mrk-its/goblin/", branch="mos"}
