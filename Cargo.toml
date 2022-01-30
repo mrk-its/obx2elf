@@ -1,6 +1,6 @@
 [package]
 name = "obx2elf"
-version = "0.1.0"
+version = "0.1.0-beta.1"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/mrk-its/obx2elf"
