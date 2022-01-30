@@ -25,3 +25,18 @@ OPTIONS:
    cargo install --path .
    cd example; make
    ```
+
+## License
+
+All source code (including code snippets) is licensed under either of
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or
+  [https://www.apache.org/licenses/LICENSE-2.0][L1])
+
+- MIT license ([LICENSE-MIT](LICENSE-MIT) or
+  [https://opensource.org/licenses/MIT][L2])
+
+[L1]: https://www.apache.org/licenses/LICENSE-2.0
+[L2]: https://opensource.org/licenses/MIT
+
+at your option.

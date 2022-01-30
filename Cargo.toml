@@ -2,6 +2,12 @@
 name = "obx2elf"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/mrk-its/obx2elf"
+description = "tool for converting MADS relocatable obx files into llvm-mos obj files in ELF format"
+documentation = "https://docs.rs/obx2elf"
+keywords = ["mos", "llvm-mos", "atari", "6502", "8-bit"]
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
